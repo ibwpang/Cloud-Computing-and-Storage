@@ -1,0 +1,19 @@
+train_net: "/home/caffe/caffe/examples/myfile/myfile_nin/train.prototxt"
+test_net: "/home/caffe/caffe/examples/myfile/myfile_nin/val.prototxt"
+test_iter: 86
+test_interval: 242
+base_lr: 0.00001
+display: 100
+max_iter: 40000
+lr_policy: "poly"
+power:1.5
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 5000
+snapshot: 1000
+snapshot_prefix: "/home/caffe/caffe/examples/myfile/myfile_nin/cloudernet_train_snapshot/cloudernet_train_snapshot"
+snapshot_diff:false
+snapshot_after_train:true
+solver_mode: CPU
+type: "SGD"

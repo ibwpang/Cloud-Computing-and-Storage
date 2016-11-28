@@ -1,0 +1,5 @@
+./parse_log.sh caffe.pang-VirtualBox.root.log
+./plot_training_log.py.example 0 test_acc_iter.png caffe.pang-VirtualBox.root.log
+./plot_training_log.py.example 2 test_loss_iter.png caffe.pang-VirtualBox.root.log
+./plot_training_log.py.example 4 train_lr_iter.png caffe.pang-VirtualBox.root.log
+./plot_training_log.py.example 6 train_loss_iter.png caffe.pang-VirtualBox.root.log

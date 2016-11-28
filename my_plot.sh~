@@ -1,0 +1,5 @@
+./examples/myfile/myfile_nin/log/parse_log.sh examples/myfile/myfile_nin/log/caffe.pang-VirtualBox.root.log
+./examples/myfile/myfile_nin/log/plot_training_log.py.example 0 examples/myfile/myfile_nin/log/test_acc_iter.png examples/myfile/myfile_nin/log/caffe.pang-VirtualBox.root.log
+./examples/myfile/myfile_nin/log/plot_training_log.py.example 2 examples/myfile/myfile_nin/log/test_loss_iter.png examples/myfile/myfile_nin/log/caffe.pang-VirtualBox.root.log
+./examples/myfile/myfile_nin/log/plot_training_log.py.example 4 examples/myfile/myfile_nin/log/train_lr_iter.png examples/myfile/myfile_nin/log/caffe.pang-VirtualBox.root.log
+./examples/myfile/myfile_nin/log/plot_training_log.py.example 6 examples/myfile/myfile_nin/log/train_loss_iter.png examples/myfile/myfile_nin/log/caffe.pang-VirtualBox.root.log
